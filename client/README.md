@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Crework Job Assessment
 
-## Getting Started
+This repository contains the solution for the Crework Job Assessment. The project demonstrates the skills and knowledge required for the given assessment, focusing on web development using HTML, CSS, JavaScript, React.js, Node.js, and MongoDB.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The Crework Job Assessment project is designed to showcase the implementation of a web application that includes both frontend and backend development. The project is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- User authentication and authorization
+- CRUD operations for job postings
+- Responsive design
+- Form validation
+- RESTful API integration
+- State management with React hooks
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installation
 
-## Learn More
+1. Clone the repository to your local machine:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/amaan92001/Crework-Job-Assessment.git
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 2.Navigate to the project directory: 
+     cd Crework-Job-Assessment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3.Install the necessary dependencies for both the frontend and backend:
 
-## Deploy on Vercel
+   # Install backend dependencies
+     cd backend
+     npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Install frontend dependencies
+    cd ../frontend
+    npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Start the backend server
+    cd backend
+    npm start
+
+
+# Start the frontend development server:
+    cd ../frontend
+    npm start
+
+
+# Technologies Used:
+    ##Frontend:
+     1.React.js
+    2.HTML
+    3.CSS
+    4.JavaScript
+    5.Tailwind CSS
+    
+    ##Backend:
+    1.Node.js
+    2.Express.js
+    3.MongoDB
+    4.Mongoose
+   
